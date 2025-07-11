@@ -1,13 +1,18 @@
-* {
-    margin: 0;
+ * {
+    margin: 0 auto;
     padding: 0;
-    box-sizing: border-box;
+    font-family:Arial,
+    box-sizing
 }
 
 body {
-    font-family: 'poppins', sans-serif;
-    background-color: #f3f3f3;
-    padding: 20px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(239, 245, 245,);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
@@ -33,43 +38,59 @@ body {
     width: 1140px;
     height: 151px;
     align-items: center;
+    margin-left: 30px;
 }
 
 .logo {
     color: #4e47ff;
+
+
     margin: 0;
     font-family: "inter",sans-serif;
     font-size: 40px;
     font-weight: 900;
 }
+#main content {
+    margin: 0;
+    font-family:  Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
 
+    
+    }
 .signup-btn {
-    padding: 8px 16px;
-    background-color: #0056d6;
     color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #4e47ff;
+  padding: 20px 30px;
+  border-radius: 15px;
+  border: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0;
+  margin-right: 30px;
 }
 
 .main-content {
-    margin-top: 100px;
-    width: 905px;
+        width: 905px;
     height: 237px;
+
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    
 }
+ 
 
-.main-content h1 {
-    margin: 0;
-    font-family: "Raleway",sans-serif;
-    font-size: 60px;
-    font-weight: 600;
-    text-align: center;
-
-}
 .btn-primary:hover{
     background-color: #2323c7;
     transform: scale(1.02);
